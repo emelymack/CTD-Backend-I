@@ -1,0 +1,35 @@
+2022-05-26 17:07:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE EMPLOYEE(ID int PRIMARY KEY,NAME VARCHAR(255),AGE INT,COMPANY VARCHAR(255)[*]START-DATE DATE)"; se esperaba "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "CREATE TABLE EMPLOYEE(ID int PRIMARY KEY,NAME VARCHAR(255),AGE INT,COMPANY VARCHAR(255)[*]START-DATE DATE)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE EMPLOYEE(ID int PRIMARY KEY,NAME VARCHAR(255),AGE INT,COMPANY VARCHAR(255)START-DATE DATE) [42001-210]
+2022-05-26 17:08:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE EMPLOYEE(ID int PRIMARY KEY,NAME VARCHAR(255),AGE INT,COMPANY VARCHAR(255)[*]STARTDATE DATE)"; se esperaba "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "CREATE TABLE EMPLOYEE(ID int PRIMARY KEY,NAME VARCHAR(255),AGE INT,COMPANY VARCHAR(255)[*]STARTDATE DATE)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE EMPLOYEE(ID int PRIMARY KEY,NAME VARCHAR(255),AGE INT,COMPANY VARCHAR(255)STARTDATE DATE) [42001-210]
+2022-05-26 17:08:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO EMPLOYEE VALUES(1, Emely [*]Mack, 22, Google, 2022-11-11)"; se esperaba "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO EMPLOYEE VALUES(1, Emely [*]Mack, 22, Google, 2022-11-11)"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO EMPLOYEE VALUES(1, Emely Mack, 22, Google, 2022-11-11) [42001-210]
+2022-05-26 17:08:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "EMELY" no encontrada
+Column "EMELY" not found; SQL statement:
+INSERT INTO EMPLOYEE VALUES(1, Emely, 22, Google, 2022-11-11) [42122-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:521)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:248)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:230)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.dml.Insert.prepare(Insert.java:300)
+	at org.h2.command.Parser.prepareCommand(Parser.java:557)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:615)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:553)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at test2.Main.main(Main.java:26)
+2022-05-26 17:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "2000 (EMPLOYEE: ""STARTDATE"" DATE)"
+Data conversion error converting "2000 (EMPLOYEE: ""STARTDATE"" DATE)"; SQL statement:
+INSERT INTO EMPLOYEE VALUES(1, 'Emely Mack', 22, 'Google', 2022-11-11) [22018-210]

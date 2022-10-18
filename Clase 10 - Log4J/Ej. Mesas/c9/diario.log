@@ -1,0 +1,5 @@
+[2022-05-25 19:43:01] [ INFO ] [Main:31] La longitud de listaEnteros5 es mayor a 5
+[2022-05-25 19:43:01] [ INFO ] [Main:34] La longitus de la listaEnteros10 es mayor a 10
+[2022-05-25 19:43:01] [ ERROR] [Main:37] La longitud es cero
+[2022-05-25 19:43:01] [ INFO ] [Main:41] El promedio de lista5 es 3
+[2022-05-25 19:43:01] [ INFO ] [Main:42] El promedio de lista10 es 6

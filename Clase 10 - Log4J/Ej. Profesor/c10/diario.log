@@ -1,0 +1,17 @@
+[2022-05-25 18:50:42] [ INFO ] [TrianguloFactory:20] Se ha creado un nuevo triangulo de color rojo
+[2022-05-25 18:53:53] [ INFO ] [TrianguloFactory:20] Se ha creado un nuevo triangulo de color rojo
+[2022-05-25 19:00:46] [ INFO ] [TrianguloFactory:20] Se ha creado un nuevo triangulo de color rojo
+[2022-05-25 19:00:46] [ WARN ] [Triangulo:27] Cuidado, alguien ha cambiando el tamaño del triangulo color: rojo
+Esto provoca un cambio general y a modo de seguridad se registran los valores de dicho cambio:
+valor anterior:2
+valor nuevo:4
+[2022-05-25 19:05:26] [ INFO ] [TrianguloFactory:20] Se ha creado un nuevo triangulo de color rojo
+[2022-05-25 19:05:26] [ WARN ] [Triangulo:27] Cuidado, alguien ha cambiando el tamaño del triangulo color: rojo
+Esto provoca un cambio general y a modo de seguridad se registran los valores de dicho cambio:
+valor anterior:2
+valor nuevo:4
+[2022-05-25 19:07:17] [ INFO ] [TrianguloFactory:20] Se ha creado un nuevo triangulo de color rojo
+[2022-05-25 19:07:17] [ WARN ] [Triangulo:27] Cuidado, alguien ha cambiando el tamaño del triangulo color: rojo
+Esto provoca un cambio general y a modo de seguridad se registran los valores de dicho cambio:
+valor anterior:2
+valor nuevo:4

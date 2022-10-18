@@ -1,0 +1,152 @@
+[2022-06-02 19:00:37] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:00:37] [ ERROR] [OdontologoDAO:29] Ocurrió un error: 
+org.h2.jdbc.JdbcSQLDataException: Parametro "#3" no está fijado
+Parameter "#3" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [90012-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:665)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:186)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:164)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:24)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:11)
+	at service.OdontologoService.guardarOdontologo(OdontologoService.java:14)
+	at Main.main(Main.java:23)
+[2022-06-02 19:00:37] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:00:37] [ ERROR] [OdontologoDAO:29] Ocurrió un error: 
+org.h2.jdbc.JdbcSQLDataException: Parametro "#3" no está fijado
+Parameter "#3" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [90012-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:665)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:186)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:164)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:24)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:11)
+	at service.OdontologoService.guardarOdontologo(OdontologoService.java:14)
+	at Main.main(Main.java:24)
+[2022-06-02 19:00:37] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:00:37] [ ERROR] [OdontologoDAO:29] Ocurrió un error: 
+org.h2.jdbc.JdbcSQLDataException: Parametro "#3" no está fijado
+Parameter "#3" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [90012-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:665)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:186)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:164)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:24)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:11)
+	at service.OdontologoService.guardarOdontologo(OdontologoService.java:14)
+	at Main.main(Main.java:25)
+[2022-06-02 19:00:37] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:00:37] [ ERROR] [OdontologoDAO:29] Ocurrió un error: 
+org.h2.jdbc.JdbcSQLDataException: Parametro "#3" no está fijado
+Parameter "#3" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [90012-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:665)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:186)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:164)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:24)
+	at dao.OdontologoDAO.guardar(OdontologoDAO.java:11)
+	at service.OdontologoService.guardarOdontologo(OdontologoService.java:14)
+	at Main.main(Main.java:26)
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:25] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:25] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:25] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:01:32] [ INFO ] [OdontologoDAO:25] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:09:32] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:09:32] [ INFO ] [OdontologoDAO:53] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:09:54] [ INFO ] [OdontologoDAO:79] Se está generando la conexión a la DB...
+[2022-06-02 19:09:54] [ INFO ] [OdontologoDAO:53] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:13:09] [ INFO ] [OdontologoDAO:84] Se está generando la conexión a la DB...
+[2022-06-02 19:13:09] [ INFO ] [OdontologoDAO:58] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:84] Se está generando la conexión a la DB...
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:84] Se está generando la conexión a la DB...
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:84] Se está generando la conexión a la DB...
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:84] Se está generando la conexión a la DB...
+[2022-06-02 19:14:29] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:14:37] [ INFO ] [OdontologoDAO:84] Se está generando la conexión a la DB...
+[2022-06-02 19:14:37] [ INFO ] [OdontologoDAO:58] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:17:12] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:17:48] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:17:48] [ INFO ] [OdontologoDAO:59] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:19:36] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Abraham, Joaquin
+[2022-06-02 19:20:37] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:20:37] [ INFO ] [OdontologoDAO:59] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:86] Se está generando la conexión a la DB...
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:86] Se está generando la conexión a la DB...
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:86] Se está generando la conexión a la DB...
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:86] Se está generando la conexión a la DB...
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:86] Se está generando la conexión a la DB...
+[2022-06-02 19:22:59] [ INFO ] [OdontologoDAO:31] Se guardó el odontólogo Abraham, Joaquin
+[2022-06-02 19:23:26] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:23:27] [ INFO ] [OdontologoDAO:58] Se generó la búsqueda de todos los odontólogos
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:85] Se está generando la conexión a la DB...
+[2022-06-02 19:23:46] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Abraham, Joaquin
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:85] Generando la conexión a la DB...
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Rodríguez, Roberto
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:85] Generando la conexión a la DB...
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Esquivel, Laura
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:85] Generando la conexión a la DB...
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Martínez, Federico
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:85] Generando la conexión a la DB...
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Ruggeri, Sabrina
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:85] Generando la conexión a la DB...
+[2022-06-02 19:24:14] [ INFO ] [OdontologoDAO:30] Se guardó el odontólogo Abraham, Joaquin
+[2022-06-02 19:24:48] [ INFO ] [OdontologoDAO:85] Generando la conexión a la DB...
+[2022-06-02 19:24:48] [ INFO ] [OdontologoDAO:58] Se generó la búsqueda de todos los odontólogos

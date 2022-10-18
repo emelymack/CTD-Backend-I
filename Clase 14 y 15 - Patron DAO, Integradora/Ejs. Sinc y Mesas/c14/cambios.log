@@ -1,0 +1,7 @@
+[2022-05-31 18:59:20] [ INFO ] [Medicamento:15] Se ejecuta el guardado de un medicamento
+[2022-05-31 19:27:28] [ INFO ] [Medicamento:17] Se ejecuta el guardado de un medicamento
+[2022-05-31 19:27:28] [ INFO ] [Medicamento:17] Se ejecuta el guardado de un medicamento
+[2022-05-31 19:48:28] [ INFO ] [Medicamento:52] Se ejecuta la búsqueda de un medicamento
+[2022-05-31 19:49:46] [ INFO ] [Medicamento:52] Se ejecuta la búsqueda de un medicamento
+[2022-05-31 19:51:57] [ INFO ] [Medicamento:52] Se ejecuta la búsqueda de un medicamento
+[2022-05-31 19:51:58] [ ERROR] [Medicamento:75] No se pudo encontrar el medicamento con ID 3
